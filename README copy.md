@@ -1,0 +1,1 @@
+# iac cloudant template
