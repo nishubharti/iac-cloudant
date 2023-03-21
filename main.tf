@@ -3,7 +3,7 @@ data "ibm_resource_group" "cloudant_group" {
 }
 
 resource "ibm_cloudant" "cloudant" {
-  name     = "test-cloudant"
+  name     = "test-cloudant1"
   location = var.ibm_region
   plan = var.plan
   resource_group_id = data.ibm_resource_group.cloudant_group.id
